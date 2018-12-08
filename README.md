@@ -5,6 +5,8 @@
 Put on the Only Style.
 
 
+
+
 ## Puton Dapp
 
 This is Dapp for Puton which is mobile app using EOS blockchain testnet.
@@ -12,7 +14,9 @@ This is Dapp for Puton which is mobile app using EOS blockchain testnet.
 c.f. https://github.com/failnicely/puton_contract
 
 
-### Platform
+
+
+## Platform
 
 We are using flutter which is for cross-platform mobile native app development.
 
@@ -24,7 +28,10 @@ For help getting started with Flutter, view our online.
 </sup>
 
 
-### Progress
+
+
+
+## Progress
 
 The Dapp only support Andorid now. But this is developed by using Flutter. This is why iOS puton Dapp is comming soon.
 
