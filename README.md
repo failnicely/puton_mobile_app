@@ -5,7 +5,7 @@
 Put on the Only Style.
 
 
-
+<br /><br />
 
 ## Puton Dapp
 
@@ -14,7 +14,7 @@ This is Dapp for Puton which is mobile app using EOS blockchain testnet.
 c.f. https://github.com/failnicely/puton_contract
 
 
-
+<br /><br />
 
 ## Platform
 
@@ -29,7 +29,7 @@ For help getting started with Flutter, view our online.
 
 
 
-
+<br /><br />
 
 ## Progress
 
