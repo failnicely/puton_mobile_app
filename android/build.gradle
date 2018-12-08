@@ -1,0 +1,37 @@
+buildscript {
+    ext.kotlin_version = '1.2.71'
+    repositories {
+        maven { url 'https://maven.google.com' }
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://dl.google.com/dl/android/maven2' }
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://jitpack.io' }
+        google()
+        jcenter()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

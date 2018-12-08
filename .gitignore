@@ -6,6 +6,7 @@
 
 build/
 
+.idea
 android/.idea
 android/.gradle
 Puton/.idea
