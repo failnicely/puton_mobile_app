@@ -35,8 +35,11 @@ For help getting started with Flutter, view our online.
 
 The Dapp only support Andorid now. But this is developed by using Flutter. This is why iOS puton Dapp is comming soon.
 
+<br /><br />
 
-
+## Download
+- Android: [apk](https://drive.google.com/open?id=1Qpch7sHgttK3enmFeL69ZFvFEaGHxxgB)
+- iOS: TBD
 
 <br /><br />
 
